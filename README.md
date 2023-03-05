@@ -1,0 +1,1 @@
+docker run --name mydatabase -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=mydb mysql:latest <- comando usado pra cirar o container do mysql>
